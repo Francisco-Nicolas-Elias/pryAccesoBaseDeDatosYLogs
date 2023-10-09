@@ -29,9 +29,9 @@ namespace pryAccesoBaseDeDatosYLogs
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            clsAccesoDatos instancia = new clsAccesoDatos();
+            clsAccesoDatos objLogin = new clsAccesoDatos();
 
-            instancia.ConexionABase();
+            objLogin.ConexionABase();
         }
     }
 }
