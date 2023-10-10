@@ -1,6 +1,6 @@
 ﻿namespace pryAccesoBaseDeDatosYLogs
 {
-    partial class Form1
+    partial class frmConexionBaseDeDatos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -69,7 +69,7 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(147, 125);
+            this.btnIngresar.Location = new System.Drawing.Point(131, 73);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(93, 31);
             this.btnIngresar.TabIndex = 4;
@@ -77,7 +77,7 @@
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // Form1
+            // frmConexionBaseDeDatos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -87,8 +87,8 @@
             this.Controls.Add(this.txtIngreseUsuario);
             this.Controls.Add(this.lblIngreseContraseña);
             this.Controls.Add(this.lblIngreseUsuario);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmConexionBaseDeDatos";
+            this.Text = "Conexión a base de datos";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

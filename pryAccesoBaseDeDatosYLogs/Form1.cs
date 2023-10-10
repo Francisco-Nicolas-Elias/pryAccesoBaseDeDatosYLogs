@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryAccesoBaseDeDatosYLogs
 {
-    public partial class Form1 : Form
+    public partial class frmConexionBaseDeDatos : Form
     {
-        public Form1()
+        public frmConexionBaseDeDatos()
         {
             InitializeComponent();
         }

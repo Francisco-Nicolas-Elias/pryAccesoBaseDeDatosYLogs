@@ -19,8 +19,8 @@ namespace pryAccesoBaseDeDatosYLogs
         {
             try
             {
-                conexionBD = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;" +
-                    "Data Source=D:\\Escritorio\\pryAccesoBaseDeDatosYLogs\\pryAccesoBaseDeDatosYLogs\\Resources\\Datos login.accdb");
+                conexionBD = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;" +
+                    "Data Source=..\\..\\Resources\\Datos login.accdb");
                 //conexionBD = new OleDbConnection("@Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:D:\\Escritorio\\pryAccesoBaseDeDatosYLogs\\pryAccesoBaseDeDatosYLogs\\Resources\\Datos login.accdb");
                 conexionBD.Open();
             }
