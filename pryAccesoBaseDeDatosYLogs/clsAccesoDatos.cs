@@ -62,11 +62,7 @@ namespace pryAccesoBaseDeDatosYLogs
                 MessageBox.Show(ex.Message);
             }
 
-
-            //Cree una función llamada ConexionABAse para llamarla en los procedimientos luego
-
-           
-
+             //Cree una función llamada ConexionABAse para llamarla en los procedimientos luego
         }
             
     }

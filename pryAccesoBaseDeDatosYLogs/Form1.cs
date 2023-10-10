@@ -32,8 +32,6 @@ namespace pryAccesoBaseDeDatosYLogs
             clsAccesoDatos objLogin = new clsAccesoDatos();
 
             objLogin.ConexionABase();
-
-
         }
     }
 }
