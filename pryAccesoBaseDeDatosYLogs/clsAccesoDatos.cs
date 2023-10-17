@@ -32,13 +32,13 @@ namespace pryAccesoBaseDeDatosYLogs
                 // establecer las propiedades al objeto comando
                 objComando.Connection = conexionBaseD;
                 objComando.CommandType = CommandType.TableDirect;
-                objComando.CommandText = "Usuarios"; // nombrede la tabla a leer
-                // ejecutar la lectura de la tabla con un objetoDataReader
+                objComando.CommandText = "Usuarios"; // nombre de la tabla a leer
+                                                    // ejecutar la lectura de la tabla con un objetoDataReader
                 objdReader = objComando.ExecuteReader();
                 // controlar si la lectura obtuvo registros
                 if (objdReader.HasRows)
                 {
-                    string datos = ""; // variable auxiliarpara almacenar los datos de la tabla
+                    string datos = "";        // variable auxiliar para almacenar los datos de la tabla
                     while (objdReader.Read()) // leer mientras existanregistros
                     {
                         // concatenar los campos de la tabla'Usuario': 'ID' y
